@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interiérové barvy | TOMÁŠ ŠPAČEK - BALAK</title>
+    <meta name="description" content="Detailní informace o nabídce interiérových barev. Nabízíme tónování na počkání a široký výběr odstínů pro dokonalý vzhled vašich stěn.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="subpage">
+
+    <header class="navbar scrolled">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-prefix">BARVY LAKY</span>
+                TOMÁŠ ŠPAČEK - BALAK
+            </a>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html#sortiment" class="dropbtn active">Sortiment <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="interierove-barvy.html">Interiérové barvy</a>
+                            <a href="fasadni-systemy.html">Fasádní systémy</a>
+                            <a href="laky-a-lazury.html">Laky a lazury</a>
+                            <a href="barvy-na-konstrukce.html">Barvy na konstrukce</a>
+                            <a href="barvy-na-podlahy.html">Barvy na podlahy</a>
+                            <a href="barvy-pro-veterany.html">Barvy pro veterány</a>
+                            <a href="stavebni-chemie.html">Stavební chemie</a>
+                            <a href="naradi.html">Nářadí a doplňky</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#sluzby">Služby</a></li>
+                    <li><a href="index.html#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="navbar-phone-row">
+                <a href="tel:+420385310749" class="contact-link">+420 385 310 749</a>
+                <span class="phone-separator">|</span>
+                <a href="tel:+420606580256" class="contact-link">+420 606 580 256</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="detail-page">
+            <div class="container">
+                <div class="detail-header animated-element fade-in">
+                    <i class="fa-solid fa-couch"></i>
+                    <h1>Interiérové barvy</h1>
+                </div>
+                <div class="detail-content animated-element fade-in">
+                    <p>Nabízíme široký výběr interiérových barev, které lze tónovat. Poradíme vám s výběrem ideálního produktu pro vaše stěny, ať už se jedná o obývací pokoj, kuchyň nebo dětský pokojíček.</p>
+                    <ul class="product-list">
+                        <li><strong>Značky:</strong> REMAL, JUPOL, HET, STACHEMA</li>
+                        <li><strong>Speciální nátěry:</strong> Protiplísňové přípravky a barvy</li>
+                    </ul>
+                    <div class="calculator">
+                        <h4>Kalkulačka spotřeby</h4>
+                        <div class="calculator-grid">
+                            <div><label for="paint-area">Plocha k nátěru (v m²)</label><input type="number" id="paint-area" placeholder="Zadejte celkovou plochu"></div>
+                            <button type="button" id="calculate-btn" class="btn">Vypočítat</button>
+                        </div>
+                        <div id="paint-result" class="calculator-result"></div>
+                    </div>
+                     <a href="index.html#sortiment" class="btn btn-back">Zpět na sortiment</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> TOMÁŠ ŠPAČEK - BALAK. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
